@@ -1,0 +1,23 @@
+TABLE {
+    width: 300px;
+    background: #fffff0;
+    border: 1px solid #a52a2a;
+    border-collapse: collapse;
+}
+TD, TH {
+    padding: 3px;
+}
+TD {
+    text-align: center;
+    border-bottom: 1px solid #a52a2a;
+}
+TH {
+    background: #a52a2a;
+    color: white;
+}
+TR.even {
+    background: #fff8dc;
+}
+.la {
+    text-align: left;
+}
