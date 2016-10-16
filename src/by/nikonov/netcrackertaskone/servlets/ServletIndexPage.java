@@ -1,6 +1,6 @@
 package by.nikonov.netcrackertaskone.servlets;
 
-import by.nikonov.netcrackertaskone.classes.connection.connectionGiver;
+import by.nikonov.netcrackertaskone.classes.connection.СonnectionGiver;
 import by.nikonov.netcrackertaskone.classes.factory.StoneFactory;
 import by.nikonov.netcrackertaskone.classes.necklace.Necklace;
 import by.nikonov.netcrackertaskone.classes.stone.Stone;
@@ -97,7 +97,7 @@ public class ServletIndexPage extends HttpServlet {
         double result=0;
 
         try{
-            Connection conn = connectionGiver.getInstance().getConnection();
+            Connection conn = СonnectionGiver.getInstance().getConnection();
 
             Statement statement = conn.createStatement();
 
@@ -113,7 +113,7 @@ public class ServletIndexPage extends HttpServlet {
 
     private void createNecklace(Necklace necklace) throws ServletException {
         try{
-            Connection conn = connectionGiver.getInstance().getConnection();
+            Connection conn = СonnectionGiver.getInstance().getConnection();
 
             Statement statement = conn.createStatement();
 
@@ -139,7 +139,7 @@ public class ServletIndexPage extends HttpServlet {
         double result=0;
 
         try{
-        Connection conn = connectionGiver.getInstance().getConnection();
+        Connection conn = СonnectionGiver.getInstance().getConnection();
 
         Statement statement = conn.createStatement();
 

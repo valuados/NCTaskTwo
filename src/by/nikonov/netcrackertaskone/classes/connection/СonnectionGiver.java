@@ -7,14 +7,14 @@ import java.sql.SQLException;
 /**
  * Created by valua on 10/13/2016.
  */
-public class connectionGiver {
+public class СonnectionGiver {
     public static final String URL="jdbc:sqlite:E:/My Programms/Netcracker/TaskTwo/web/db/database.db";
     public static final String USER="root";
     public static final String PASS="";
 
-    private static connectionGiver instance = new connectionGiver();
+    private static СonnectionGiver instance = new СonnectionGiver();
 
-    public connectionGiver() {
+    public СonnectionGiver() {
         try {
             Class.forName("org.sqlite.JDBC");
         } catch (ClassNotFoundException ex) {
@@ -23,7 +23,7 @@ public class connectionGiver {
         }
     }
 
-    public static connectionGiver getInstance() {
+    public static СonnectionGiver getInstance() {
         return instance;
     }
 
