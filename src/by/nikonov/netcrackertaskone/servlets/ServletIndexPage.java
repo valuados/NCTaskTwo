@@ -102,8 +102,9 @@ public class ServletIndexPage extends HttpServlet {
             Statement statement = conn.createStatement();
 
             ResultSet res = statement.executeQuery(SELECT_WEIGHT);
-                result+=res.getDouble(1);
-
+            if(res.next())
+              result+=res.getDouble(1);
+            System.out.println(res);
         } catch (SQLException e) {
             e.printStackTrace();
         }
