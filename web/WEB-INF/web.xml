@@ -19,4 +19,20 @@
         <servlet-name>ServletIndexPage</servlet-name>
         <url-pattern>/indexpage</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPrecious</servlet-name>
+        <servlet-class>by.nikonov.netcrackertaskone.servlets.ServletPrecious</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPrecious</servlet-name>
+        <url-pattern>/precious</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletSemiprecious</servlet-name>
+        <servlet-class>by.nikonov.netcrackertaskone.servlets.ServletSemiprecious</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSemiprecious</servlet-name>
+        <url-pattern>/semiprecious</url-pattern>
+    </servlet-mapping>
 </web-app>

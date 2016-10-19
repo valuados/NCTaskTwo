@@ -11,6 +11,11 @@
     <title>Task Two</title>
   </head>
   <body>
+  <a href="/precious.jsp">Press to add new precious stone</a>
+  <br><br>
+  <a href="/semiprecious.jsp">Press to add new semiprecious stone</a>
+  <br><br>
+
   <form action="indexpage" method="GET">
     <input type="submit" value="Show stones"/>
     <input type="hidden" name="command" value="show">

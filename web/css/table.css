@@ -21,3 +21,17 @@ TR.even {
 .la {
     text-align: left;
 }
+
+.stone-form {
+    display: table;
+}
+
+.stone-form > div {
+    display: table-row;
+}
+
+.stone-form label,
+.stone-form input {
+    display: table-cell;
+    margin: 10px 30px;
+}

@@ -8,7 +8,6 @@ import by.nikonov.netcrackertaskone.classes.stone.Stone;
 import javax.servlet.ServletException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Scanner;
 
 /**
  * Created by valua on 10/8/2016.
